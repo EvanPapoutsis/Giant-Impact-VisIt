@@ -1,5 +1,5 @@
 # This is the code used to visualize the giant impact simulation ran on a modified Athena++
-# using VisIt's command line, written by Evan Papoutsis.  Note that this will only work on VisIt versions 3.1.4 and greater.
+# using VisIt's command line.  Note that this will only work on VisIt versions 3.1.4 and greater.
 # The code assumes there are 677 dump files of just the density, labeled impact.d.%05d.athdf.xdmf,
 # and 3 dump files of all primative variables, labeled impact.f.%05d.athdf.xdmf, and that the simulation
 # was run over a time of 2700 seconds.
