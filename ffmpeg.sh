@@ -1,0 +1,1 @@
+ffmpeg -r 60 -i giant_impact_%04d.png -pix_fmt yuv420p10le -c:v libx265 -preset slow -crf 18 -x265-params ref=6:bframes=8:no-sao=1:psy-rd=2:psy-rdoq=4:aq-mode=3:no-strong-intra-smoothing=1:deblock=1,1 -c:a libopus giant_impact.mp4
